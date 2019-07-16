@@ -2,8 +2,8 @@ package com.studycase1.atmsimulation.view;
 
 import java.util.List;
 
-import com.studycase1.atmsilmualtion.services.FundTransferServices;
-import com.studycase1.atmsilmualtion.services.FundTransferServicesImpl;
+import com.studycase1.atmsilmulation.services.FundTransferServices;
+import com.studycase1.atmsilmulation.services.FundTransferServicesImpl;
 import com.studycase1.atmsimulation.model.Account;
 
 public class FundTransferScreen4 {

@@ -3,8 +3,8 @@ package com.studycase1.atmsimulation.view;
 import java.util.List;
 import java.util.Scanner;
 
-import com.studycase1.atmsilmualtion.services.WithdrawServices;
-import com.studycase1.atmsilmualtion.services.WithdrawServicesImpl;
+import com.studycase1.atmsilmulation.services.WithdrawServices;
+import com.studycase1.atmsilmulation.services.WithdrawServicesImpl;
 import com.studycase1.atmsimulation.model.Account;
 
 public class WithdrawScreen {

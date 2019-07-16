@@ -3,8 +3,8 @@ package com.studycase1.atmsimulation.view;
 import java.util.List;
 import java.util.Scanner;
 
-import com.studycase1.atmsilmualtion.services.UserService;
-import com.studycase1.atmsilmualtion.services.UserServicesImpl;
+import com.studycase1.atmsilmulation.services.UserService;
+import com.studycase1.atmsilmulation.services.UserServicesImpl;
 import com.studycase1.atmsimulation.model.Account;
 
 public class WelcomeScreen {

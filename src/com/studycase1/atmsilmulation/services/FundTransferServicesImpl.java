@@ -1,4 +1,4 @@
-package com.studycase1.atmsilmualtion.services;
+package com.studycase1.atmsilmulation.services;
 
 import java.util.List;
 import java.util.Scanner;
