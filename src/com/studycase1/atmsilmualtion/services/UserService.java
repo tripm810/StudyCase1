@@ -1,9 +1,9 @@
-package com.studycase1.services;
+package com.studycase1.atmsilmualtion.services;
 
 import java.util.List;
 
-import com.studycase1.atmsimulation.WelcomeScreen;
-import com.studycase1.model.Account;
+import com.studycase1.atmsimulation.model.Account;
+import com.studycase1.atmsimulation.view.WelcomeScreen;
 
 public interface UserService {
 

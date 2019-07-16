@@ -1,4 +1,4 @@
-package com.studycase1.model;
+package com.studycase1.atmsimulation.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class Account {
 			this.accountNumber = accountNumber;
 		}
 
-		private Account () {
+		private Account() {
 			
 		}
 		

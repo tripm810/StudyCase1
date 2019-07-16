@@ -1,4 +1,4 @@
-package com.studycase1.atmsimulation;
+package com.studycase1.atmsimulation.view;
 
 import java.util.Scanner;
 
@@ -8,8 +8,9 @@ public class TransactionScreen {
 
 		WithdrawScreen withdrawScreen = new WithdrawScreen();
 		WelcomeScreen welcomeScreen = new WelcomeScreen();
-		FundTransferScreen fundTransferScreen = new FundTransferScreen();
-
+		FundTransferScreen1 fundTransferScreen = new FundTransferScreen1();
+		
+		System.out.println();
 		System.out.println("Transaction Screen");
 		System.out.println("----------------");
 
@@ -35,7 +36,7 @@ public class TransactionScreen {
 			welcomeScreen.show();
 			break;
 		default:
-			welcomeScreen.show();
+			show();
 			break;
 		}
 

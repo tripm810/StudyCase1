@@ -1,22 +1,23 @@
-package com.studycase1.atmsimulation;
+package com.studycase1.atmsimulation.view;
 
 import java.util.Scanner;
 
-import com.studycase1.services.FundTransferServices;
-import com.studycase1.services.FundTransferServicesImpl;
+import com.studycase1.atmsilmualtion.services.FundTransferServices;
+import com.studycase1.atmsilmualtion.services.FundTransferServicesImpl;
 
 public class FundTransferSummaryScreen {
 
 	public void show() {
 		WelcomeScreen welcomeScreen = new WelcomeScreen();
 		FundTransferServices fundTransferServices = new FundTransferServicesImpl();
-		FundTransferSummaryScreen fundTransferSummaryScreen = new FundTransferSummaryScreen();
+		TransactionScreen transactionScreen = new TransactionScreen();
+		System.out.println();
 		System.out.println("Fund Transfer Summary Screen");
 		System.out.println("----------------------");
 		
-		System.out.println("Destination Account: " + FundTransferScreen.destinationAcc);
-		System.out.println("Transfer Amount: $" + FundTransferScreen.tranferAmt);
-		System.out.println("Reference Number: " + FundTransferScreen.referenceNum);
+		System.out.println("Destination Account: " + FundTransferScreen1.destinationAcc);
+		System.out.println("Transfer Amount: $" + FundTransferScreen1.tranferAmt);
+		System.out.println("Reference Number: " + FundTransferScreen1.referenceNum);
 		System.out.println("Balance: $" + WelcomeScreen.balance);
 		
 		System.out.println("1. Transaction");
@@ -27,7 +28,7 @@ public class FundTransferSummaryScreen {
 
 		switch (opt) {
 		case "1":
-			fundTransferServices.transaction(fundTransferSummaryScreen);
+			fundTransferServices.transaction(transactionScreen);
 			break;
 		case "2":
 			welcomeScreen.show();

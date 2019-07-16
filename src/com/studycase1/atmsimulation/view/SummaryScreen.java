@@ -1,4 +1,4 @@
-package com.studycase1.atmsimulation;
+package com.studycase1.atmsimulation.view;
 
 
 import java.time.LocalDateTime;
@@ -19,6 +19,7 @@ public class SummaryScreen {
 		LocalDateTime now = LocalDateTime.now();
 		Scanner scan = new Scanner(System.in);
 		
+		System.out.println();
 		System.out.println("Summary Screen");
 		System.out.println("----------------");
 		System.out.println("Date : " + dtf.format(now));

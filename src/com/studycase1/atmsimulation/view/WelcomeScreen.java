@@ -1,11 +1,11 @@
-package com.studycase1.atmsimulation;
+package com.studycase1.atmsimulation.view;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.studycase1.model.Account;
-import com.studycase1.services.UserService;
-import com.studycase1.services.UserServicesImpl;
+import com.studycase1.atmsilmualtion.services.UserService;
+import com.studycase1.atmsilmualtion.services.UserServicesImpl;
+import com.studycase1.atmsimulation.model.Account;
 
 public class WelcomeScreen {
 
@@ -20,10 +20,12 @@ public class WelcomeScreen {
 		WelcomeScreen welcomeScreen = new WelcomeScreen();
 		Scanner scan = new Scanner(System.in);
 
+		System.out.println();
 		System.out.println("Welcome Screen");
 		System.out.println("---------------");
 
 		System.out.print("Enter Account Number: ");
+		
 		String accountNumber = scan.nextLine();
 		String acc = accountNumber;
 		accNumberStatic = acc;
