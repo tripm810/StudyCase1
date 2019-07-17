@@ -2,9 +2,9 @@ package com.studycase1.atmsilmulation.services;
 
 import java.util.List;
 
-import com.studycase1.atmsimulation.model.Account;
-import com.studycase1.atmsimulation.view.FundTransferScreen1;
-import com.studycase1.atmsimulation.view.TransactionScreen;
+import com.studycase1.atmsilmulation.model.Account;
+import com.studycase1.atmsilmulation.view.FundTransferScreen1;
+import com.studycase1.atmsilmulation.view.TransactionScreen;
 
 public interface FundTransferServices {
 	

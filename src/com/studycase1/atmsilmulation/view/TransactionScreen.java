@@ -1,4 +1,4 @@
-package com.studycase1.atmsimulation.view;
+package com.studycase1.atmsilmulation.view;
 
 import java.util.Scanner;
 

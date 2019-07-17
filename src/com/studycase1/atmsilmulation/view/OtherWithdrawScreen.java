@@ -1,10 +1,10 @@
-package com.studycase1.atmsimulation.view;
+package com.studycase1.atmsilmulation.view;
 
 import java.util.List;
 
+import com.studycase1.atmsilmulation.model.*;
 import com.studycase1.atmsilmulation.services.WithdrawServices;
 import com.studycase1.atmsilmulation.services.WithdrawServicesImpl;
-import com.studycase1.atmsimulation.model.*;
 
 import java.util.Scanner;
 

@@ -3,14 +3,14 @@ package com.studycase1.atmsilmulation.services;
 import java.util.List;
 import java.util.Scanner;
 
-import com.studycase1.atmsimulation.model.Account;
-import com.studycase1.atmsimulation.view.FundTransferScreen1;
-import com.studycase1.atmsimulation.view.FundTransferScreen2;
-import com.studycase1.atmsimulation.view.FundTransferScreen3;
-import com.studycase1.atmsimulation.view.FundTransferScreen4;
-import com.studycase1.atmsimulation.view.FundTransferSummaryScreen;
-import com.studycase1.atmsimulation.view.TransactionScreen;
-import com.studycase1.atmsimulation.view.WelcomeScreen;
+import com.studycase1.atmsilmulation.model.Account;
+import com.studycase1.atmsilmulation.view.FundTransferScreen1;
+import com.studycase1.atmsilmulation.view.FundTransferScreen2;
+import com.studycase1.atmsilmulation.view.FundTransferScreen3;
+import com.studycase1.atmsilmulation.view.FundTransferScreen4;
+import com.studycase1.atmsilmulation.view.FundTransferSummaryScreen;
+import com.studycase1.atmsilmulation.view.TransactionScreen;
+import com.studycase1.atmsilmulation.view.WelcomeScreen;
 
 public class FundTransferServicesImpl implements FundTransferServices {
 

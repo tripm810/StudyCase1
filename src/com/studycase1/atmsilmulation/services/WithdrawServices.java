@@ -2,11 +2,10 @@ package com.studycase1.atmsilmulation.services;
 
 import java.util.List;
 
-import com.studycase1.atmsimulation.model.Account;
-import com.studycase1.atmsimulation.view.OtherWithdrawScreen;
-import com.studycase1.atmsimulation.view.SummaryScreen;
-import com.studycase1.atmsimulation.view.TransactionScreen;
-import com.studycase1.atmsimulation.view.WithdrawScreen;
+import com.studycase1.atmsilmulation.model.Account;
+import com.studycase1.atmsilmulation.view.SummaryScreen;
+import com.studycase1.atmsilmulation.view.TransactionScreen;
+import com.studycase1.atmsilmulation.view.WithdrawScreen;
 
 public interface WithdrawServices {
 

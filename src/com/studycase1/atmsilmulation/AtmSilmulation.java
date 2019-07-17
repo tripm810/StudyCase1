@@ -1,9 +1,9 @@
-package com.studycase1.atmsimulation;
+package com.studycase1.atmsilmulation;
 
 import java.util.List;
 
-import com.studycase1.atmsimulation.model.*;
-import com.studycase1.atmsimulation.view.WelcomeScreen;
+import com.studycase1.atmsilmulation.model.*;
+import com.studycase1.atmsilmulation.view.WelcomeScreen;
 
 public class AtmSilmulation {
 

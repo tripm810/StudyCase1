@@ -1,11 +1,11 @@
-package com.studycase1.atmsimulation.view;
+package com.studycase1.atmsilmulation.view;
 
 import java.util.List;
 import java.util.Scanner;
 
+import com.studycase1.atmsilmulation.model.Account;
 import com.studycase1.atmsilmulation.services.WithdrawServices;
 import com.studycase1.atmsilmulation.services.WithdrawServicesImpl;
-import com.studycase1.atmsimulation.model.Account;
 
 public class WithdrawScreen {
 	public static String withdrawAmount;
